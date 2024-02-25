@@ -34,6 +34,17 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'Provide testing instructions:',
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'List collaborators and include links to resources used:',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Select the license used for your project:',
+        choices: ['MIT License', 'Apache License 2.0', 'GNU General Public License v3.0', 'None'],
     }
 ];
 
